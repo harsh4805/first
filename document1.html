@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<p id="demo"></p>
+
+    
+</body>
+
+</html>
+<script>
+    function greetUser(name){
+    if (!name){                 // if name is not given
+        name = "Guest";
+    }
+    return "Hello"+" "+ name + " ! Have a Great day";
+}
+
+x = greetUser("Harsh")
+document.getElementById("demo").innerHTML = x;
+</script>
